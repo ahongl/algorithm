@@ -10,7 +10,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class reConstructBinaryTree {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
          if(pre == null || in == null || pre.length == 0 || in.length == 0){
             return null;
