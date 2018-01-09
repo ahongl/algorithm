@@ -1,6 +1,6 @@
 /**
- *变态跳台阶 
- *通过寻找规律可得结果为2的n-1次方。
+ *跳台阶 
+ *类似斐波那契数列，第一位为0，第二位为1，第三位为2，其他都为n-1的值加上n-2的值。
  **/
 public class JumpFloor {
     public int JumpFloor(int target) {
